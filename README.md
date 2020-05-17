@@ -1,5 +1,16 @@
+
+The repo holds a simple python code that will parse all kinds of different date formats to a Swedish standard format.
+
+If years are displayed as two digits: years => than 16 will be parsed in 20. centry, while years < 16 go to 21. century.
+
+__________________
+
+
+
 The dateutil module provides powerful extensions to the standard datetime module, available in Python.
 
+
+___
 from dateutil.relativedelta import *
 
 from dateutil.easter import *
@@ -35,10 +46,3 @@ How far is the Easter of that year: relativedelta(months=+6)
 And the Easter of that year is: 2004-04-11
 
 ---------
-
-The repo holds a simple python code that will parse all kinds of different date formats to a Swedish standard date.
-
-If years are displayed as two digits: years => than 16 will be parsed in 20. centry, while years < 16 go to 21. century.
-
-
-
